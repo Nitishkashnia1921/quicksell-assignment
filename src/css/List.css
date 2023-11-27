@@ -1,0 +1,30 @@
+.List{
+    flex: 1;
+    padding: 8px;
+}
+
+.list-header{
+    display: flex;
+    align-items: center;
+    margin: 25px 0px;
+}
+
+.list-header .otherOptions{
+    margin-left: auto; 
+    color:gray;
+}
+
+.list-header .number-of-tickets{
+    color: gray;
+    font-size: 14px;
+}
+
+.list-header-title{
+    font-size: 14px;
+    margin: 0px 10px;
+    font-weight: 600;
+}
+
+.list-header .list-header-icon{
+    font-size: 18px;
+}

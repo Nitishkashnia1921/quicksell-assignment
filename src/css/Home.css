@@ -1,0 +1,12 @@
+.Home{
+    height:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-section{
+    /* background-color: #F1EFEF; */
+    background-color: #f4f5f8;
+    flex-grow: 1;
+    display: flex;
+}

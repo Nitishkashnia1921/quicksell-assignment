@@ -1,0 +1,78 @@
+.Navbar{
+    position: relative;
+    padding: 20px 10px;
+}
+
+.popup{
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: #f4f5f8;
+}
+
+.display-button{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: fit-content;
+    padding: 5px 10px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    border-radius: 5px;
+}
+
+
+.display-button p{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.display-button .tune-icon{
+    font-weight: 300;
+    font-size: 15px;
+    margin-right: 5px;
+    color: gray;
+}
+
+.display-button .arrow-icon{
+    color: gray;
+}
+
+.popup-option-1{
+    margin-bottom: 5px;
+}
+
+.popup-option-1 span{
+    font-size: 12px;
+    margin-right: 40px;
+    color: gray;
+}
+
+.popup-option-1 .grouping-options{
+    padding: 4px 12px 4px 2px;
+    color: #45474B;
+    font-size: 12px;
+    outline: none;
+    border-radius: 3px;
+}
+
+.popup-option-2{
+    margin-top: 5px;
+}
+
+.popup-option-2 span{
+    font-size: 12px;
+    margin-right: 42px;
+    color: gray;
+}
+
+.popup-option-2 .ordering-options{
+    padding: 4px 12px 4px 2px;
+    color: #45474B;
+    font-size: 12px;
+    outline: none;
+    border-radius: 3px;
+}
